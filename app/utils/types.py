@@ -58,6 +58,8 @@ class OsType(Enum):
 
 
 class IndexerType(Enum):
+    JACKETT = "Jackett"
+    PROWLARR = "Prowlarr"
     BUILTIN = "Indexer"
 
 

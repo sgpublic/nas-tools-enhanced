@@ -7,7 +7,6 @@ on:
     paths:
       - version.py
       - docker/Dockerfile
-      - docker/Dockerfile.lite
       - .github/workflows/build.yml
       - requirements.txt
 jobs:
@@ -51,5 +50,5 @@ jobs:
             linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/nas-tools:latest
-            ${{ secrets.DOCKER_USERNAME }}/nas-tools:${{ env.app_version }}
+            ${{ secrets.DOCKER_USERNAME }}/nas-tools-enhanced:latest
+            ${{ secrets.DOCKER_USERNAME }}/nas-tools-enhanced:${{ env.app_version }}
