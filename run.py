@@ -34,7 +34,7 @@ if is_windows_exe:
 from config import Config
 import log
 from web.main import App
-from app.utils import SystemUtils, ConfigLoadCache
+from app.utils import ConfigLoadCache
 from app.utils.commons import INSTANCES
 from app.db import init_db, update_db, init_data
 from app.helper import IndexerHelper, DisplayHelper, ChromeHelper

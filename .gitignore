@@ -11,4 +11,7 @@ test.py
 *.ipr
 out/
 gen/
+
+.venv/
+venv/
 bin
